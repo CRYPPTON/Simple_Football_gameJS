@@ -1,0 +1,69 @@
+body {
+  background-size: 1600px 1050px;
+  background-repeat: no-repeat, repeat;
+  background-color: black;
+  color: white;
+  background-image: url("image/sp2018.jpg");
+  background-blend-mode: lighten;
+}
+
+canvas {
+  border: 10px solid #e5f5de;
+  border-radius: 10px;
+  background-size: 800px 500px;
+  background-repeat: no-repeat, repeat;
+  background-image: url("image/teren.jpg");
+  background-blend-mode: lighten;
+}
+
+
+.Game{
+  margin-left: 100px;
+  margin-top: 50px
+}
+
+.text {
+    border-style: hidden;
+  animation-name: blok;
+animation-duration: 4s;
+  background: rgb(3, 0, 14);
+  color: white;
+  margin-top: 100px;
+  margin-right: 200px;
+  padding: 10px;
+  float: right;
+  height: 200px;
+  width: 350px;
+  border: solid 5px rgb(28, 50, 80);
+  border-radius: 20px;
+}
+
+.dugme{
+  color: white;
+  background-color: black;
+}
+
+#demo{
+  margin-left: 380px;
+  height: 20px;
+  width: 80px;
+  border-style: hidden;
+}
+
+@keyframes blok {
+  from{transform: translateY(-200px);}
+    to{transform: translateY(0);}
+}
+
+#footer {
+  background-color: black;
+  color: white;
+  bottom: 1;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  font-family: inherit;
+  margin-top: 180px;
+  font-size: 20px;
+  font-weight: bold;
+}
